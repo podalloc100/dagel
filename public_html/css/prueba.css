@@ -1,0 +1,10 @@
+.w3-padding-64_seccion{padding-top:128px!important;padding-bottom:580px!important;background-image: url('Automatizacion.jpg');  background-repeat: no-repeat;}
+.w3-content{
+    
+    background-image: url('css_seccion_logo.jpg');
+}
+
+.w3-black,.w3-hover-black:hover{
+    color:#fff!important;
+    background-image: url('Automatizacion.jpg');  background-repeat: no-repeat;
+}
