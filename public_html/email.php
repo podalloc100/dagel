@@ -1,11 +1,9 @@
 <?php
 
-$email = $_POST['email'] ;
-$message = $_POST['message'] ;
-$apellido = $_POST['apellido'] ;
-$nombre = $_POST['nombre'];
-$telefono = $_POST['telefono'];
-$empresa = $_POST['empresa'];
+$email = $_POST['Email'] ;
+$message = $_POST['Message'] ;
+$nombre = $_POST['Name'];
+
 
 //////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -44,13 +42,10 @@ $mail->Subject="Contacto via web";
 
 
 
-$body.= nl2br("Nombre y Apellido: \n$nombre $apellido");
+$body.= nl2br("Nombre y Apellido: \n$nombre");
 
 $body.= nl2br("\n\nCorreo:\n$email");
 
-$body.= nl2br("\n\nTelefono:\n$telefono");
-
-$body.= nl2br("\n\nEmpresa:\n$empresa");
 
 $body.= nl2br("\n\nConsulta:\n$message");
 
